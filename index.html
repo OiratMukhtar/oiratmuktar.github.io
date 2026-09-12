@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muktar Oirat — Web Developer &amp; IT Support</title>
+<meta name="description" content="Muktar Oirat — Computer Science student. Web development and IT support portfolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="crt-line" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#top" class="logo">Muktar Oirat</a>
+  <nav class="site-nav">
+    <a href="#work">Work</a>
+    <a href="#support">Support</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="kicker">Computer science · Victoria, BC</p>
+      <h1>I build the sites people click on, and I fix the machines that keep them running.</h1>
+      <p class="hero-sub">Third-year CS student splitting time between front-end web development and hands-on IT support — from React interfaces to Windows infrastructure.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See the work</a>
+        <a href="/resume_muktar_oirat.pdf" class="btn btn-ghost">Download résumé</a>
+      </div>
+    </div>
+
+    <div class="terminal" role="img" aria-label="Terminal window showing a status check of Muktar's skills">
+      <div class="terminal-bar">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="terminal-title">status.sh</span>
+      </div>
+      <div class="terminal-body" id="terminal-body">
+        <p><span class="prompt">$</span> ./whoami --verbose</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / TIMELINE -->
+  <section id="work" class="section">
+    <h2 class="section-title">Experience</h2>
+    <ol class="timeline">
+
+      <li class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">May – Jul 2026</span>
+          <span class="timeline-tag tag-support">IT support</span>
+        </div>
+        <div class="timeline-content">
+          <h3>IT Support / System Administrator Intern</h3>
+          <p class="timeline-org">Freedom Bank Astana</p>
+          <ul>
+            <li>Supported a system administrator across Windows infrastructure on the local network</li>
+            <li>Deployed and configured remote access tools to troubleshoot Microsoft product issues</li>
+            <li>Diagnosed Windows update compatibility problems across multiple machines</li>
+            <li>Handled PC installation, software configuration, and day-to-day technical support</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">2023</span>
+          <span class="timeline-tag tag-dev">Software dev</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Heart Disease Diagnosis Application</h3>
+          <p class="timeline-org">Independent project — PyQt5</p>
+          <ul>
+            <li>Built a desktop medical diagnostic tool with an interactive GUI</li>
+            <li>Took patient data as input and analyzed heart disease risk</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">Jun 2023</span>
+          <span class="timeline-tag tag-dev">Web dev</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Company website — KazEcoLux2515.kz</h3>
+          <p class="timeline-org">Web developer</p>
+          <ul>
+            <li>Designed and deployed a cross-browser compatible company website</li>
+            <li>Optimized images and scripts, cutting page load time by roughly 30%</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">May 2022</span>
+          <span class="timeline-tag tag-dev">Web dev</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Small-business site — AssylyElim.kz</h3>
+          <p class="timeline-org">Freelance web developer</p>
+          <ul>
+            <li>Built a site from scratch with an SEO-friendly structure</li>
+            <li>Integrated contact forms and a clean layout to boost visibility</li>
+          </ul>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- TECHNICAL SUPPORT SPOTLIGHT -->
+  <section id="support" class="section support-block">
+    <div class="support-inner">
+      <h2 class="section-title">Also fluent in keeping systems alive</h2>
+      <p class="support-lede">Before a site ships, someone has to make sure the machine serving it — and the ten others in the office — actually work. That's the side of the job I learned at Freedom Bank Astana.</p>
+      <div class="support-grid">
+        <div class="support-card">
+          <p class="support-label">Windows infrastructure</p>
+          <p>PC installation, software configuration, and update-compatibility troubleshooting across a fleet of machines.</p>
+        </div>
+        <div class="support-card">
+          <p class="support-label">Remote access</p>
+          <p>Deployed and configured remote tools to resolve Microsoft product issues without a desk visit.</p>
+        </div>
+        <div class="support-card">
+          <p class="support-label">Networking</p>
+          <p>Local network fundamentals, IP configuration, and active-port diagnostics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <p class="project-path">~/web/kazecolux2515</p>
+        <h3>KazEcoLux2515.kz</h3>
+        <p>A cross-browser company website with optimized images and scripts, bringing page load time down by around 30%.</p>
+        <ul class="project-stack">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <p class="project-path">~/web/assylyelim</p>
+        <h3>AssylyElim.kz</h3>
+        <p>Freelance small-business site built from the ground up with an SEO-friendly structure, contact forms, and a clean layout.</p>
+        <ul class="project-stack">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <p class="project-path">~/desktop/heart-risk</p>
+        <h3>Heart Disease Diagnosis App</h3>
+        <p>A PyQt5 desktop application with an interactive GUI for entering patient data and analyzing heart disease risk.</p>
+        <ul class="project-stack">
+          <li>Python</li><li>PyQt5</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT / SKILLS -->
+  <section id="about" class="section about-section">
+    <div class="about-text">
+      <h2 class="section-title">About</h2>
+      <p>I'm a third-year Computer Science student at the University of Victoria, currently working through networking, operating systems, algorithms, and web development coursework. Outside class, I split my time between shipping small web projects and doing hands-on IT support — I like that one teaches me to build systems and the other teaches me how they actually break.</p>
+      <p>Fluent in English and Kazakh. I'm available for a full 8-month co-op term starting January 2027, and I hold a valid Kazakhstan driver's license recognized for students in British Columbia.</p>
+    </div>
+    <div class="skills">
+      <div class="skill-group">
+        <p class="skill-label">Languages</p>
+        <p class="skill-list">Python, Java, JavaScript, HTML, CSS</p>
+      </div>
+      <div class="skill-group">
+        <p class="skill-label">Web &amp; tools</p>
+        <p class="skill-list">React, Node.js, Git, PyQt, Pygame</p>
+      </div>
+      <div class="skill-group">
+        <p class="skill-label">IT &amp; systems</p>
+        <p class="skill-list">Windows administration, remote access tools, software installation &amp; configuration, technical troubleshooting</p>
+      </div>
+      <div class="skill-group">
+        <p class="skill-label">Networking</p>
+        <p class="skill-list">Local network fundamentals, IP configuration, active ports, PowerShell</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="footer-inner">
+    <h2>Let's talk</h2>
+    <p>Open to co-op and internship roles in web development or IT support, starting January 2027.</p>
+    <div class="footer-links">
+      <a href="mailto:oiratmuktar@uvic.ca">oiratmuktar@uvic.ca</a>
+      <a href="tel:+17026007822">702-600-7822</a>
+      <a href="https://github.com/OiratMukhtar" target="_blank" rel="noopener">GitHub</a>
+      <a href="http://www.linkedin.com/in/oirat-muktar" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="footer-base">Victoria, BC — built and deployed on GitHub Pages.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
